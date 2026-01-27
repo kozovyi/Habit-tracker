@@ -44,59 +44,45 @@
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "django.db.models.deletion",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "uuid",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.conf",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.conf",
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
+        "detail": "django.db",
         "documentation": {}
     },
     {
@@ -140,6 +126,134 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -185,6 +299,14 @@
         "description": "django.shortcuts",
         "isExtraImport": true,
         "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "Activity",
+        "importPath": "activity.models",
+        "description": "activity.models",
+        "isExtraImport": true,
+        "detail": "activity.models",
         "documentation": {}
     },
     {
@@ -201,14 +323,6 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -351,14 +465,6 @@
         "documentation": {}
     },
     {
-        "label": "get_user_model",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
         "label": "generics",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -464,6 +570,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "src.activity.migrations.0001_initial",
+        "description": "src.activity.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Activity',\n            fields=[\n                ('activity_id', models.UUIDField(default=uuid.uuid4, primary_key=True, serialize=False)),",
+        "detail": "src.activity.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
         "label": "ActivityConfig",
         "kind": 6,
         "importPath": "src.activity.apps",
@@ -473,12 +588,57 @@
         "documentation": {}
     },
     {
+        "label": "Activity",
+        "kind": 6,
+        "importPath": "src.activity.models",
+        "description": "src.activity.models",
+        "peekOfCode": "class Activity(models.Model):\n    activity_id = models.UUIDField(primary_key=True, default=uuid.uuid4)\n    user = models.ForeignKey(\n        User,\n        on_delete=models.CASCADE,\n        related_name=\"user_activities\",\n        related_query_name=\"activities\"\n    )\n    name = models.CharField(max_length=255)\n    descriprion = models.TextField(blank=True, null=True)",
+        "detail": "src.activity.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "src.activity.models",
+        "description": "src.activity.models",
+        "peekOfCode": "User = get_user_model()\nclass Activity(models.Model):\n    activity_id = models.UUIDField(primary_key=True, default=uuid.uuid4)\n    user = models.ForeignKey(\n        User,\n        on_delete=models.CASCADE,\n        related_name=\"user_activities\",\n        related_query_name=\"activities\"\n    )\n    name = models.CharField(max_length=255)",
+        "detail": "src.activity.models",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "src.activity_log.migrations.0001_initial",
+        "description": "src.activity_log.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('activity', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ActivityLog',\n            fields=[",
+        "detail": "src.activity_log.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
         "label": "ActivityLogConfig",
         "kind": 6,
         "importPath": "src.activity_log.apps",
         "description": "src.activity_log.apps",
         "peekOfCode": "class ActivityLogConfig(AppConfig):\n    name = 'activity_log'",
         "detail": "src.activity_log.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ActivityLog",
+        "kind": 6,
+        "importPath": "src.activity_log.models",
+        "description": "src.activity_log.models",
+        "peekOfCode": "class ActivityLog(models.Model):\n    class ActivityLogStatus(models.TextChoices):\n        COMPLETED = 'Виконано'\n        PARTIAL = 'Частково'\n        SKIPPED = 'Пропущено'\n    user = models.ForeignKey(\n        to=User,\n        on_delete=models.CASCADE,\n        related_name=\"user_avtivities_logs\",\n    )",
+        "detail": "src.activity_log.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "src.activity_log.models",
+        "description": "src.activity_log.models",
+        "peekOfCode": "User = get_user_model()\nclass ActivityLog(models.Model):\n    class ActivityLogStatus(models.TextChoices):\n        COMPLETED = 'Виконано'\n        PARTIAL = 'Частково'\n        SKIPPED = 'Пропущено'\n    user = models.ForeignKey(\n        to=User,\n        on_delete=models.CASCADE,\n        related_name=\"user_avtivities_logs\",",
+        "detail": "src.activity_log.models",
         "documentation": {}
     },
     {
