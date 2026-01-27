@@ -1,0 +1,21 @@
+services:
+
+  db-postgres:
+    image: postgres
+    container_name: hab-db
+    restart: always
+    shm_size: 1024mb
+    env_file:
+      - ./backend/.env
+    environment:
+      POSTGRES_DB: ${DB__NAME}
+      POSTGRES_USER: ${DB__USER}
+      POSTGRES_PASSWORD: ${DB__PASS}
+    ports:
+      - "${DB__PORT}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+
+volumes:
+  postgres_data:

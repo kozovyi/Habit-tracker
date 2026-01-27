@@ -1,0 +1,667 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "environ",
+        "description": "environ",
+        "detail": "environ",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "UnicodeUsernameValidator",
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "ModelAdmin",
+        "importPath": "unfold.admin",
+        "description": "unfold.admin",
+        "isExtraImport": true,
+        "detail": "unfold.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreateSerializer",
+        "importPath": "djoser.serializers",
+        "description": "djoser.serializers",
+        "isExtraImport": true,
+        "detail": "djoser.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "importPath": "djoser.serializers",
+        "description": "djoser.serializers",
+        "isExtraImport": true,
+        "detail": "djoser.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "user.models",
+        "description": "user.models",
+        "isExtraImport": true,
+        "detail": "user.models",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "src.main.asgi",
+        "description": "src.main.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "src.main.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nenv = environ.Env(Debug=(bool, False))\nenv.read_env(BASE_DIR.parent.joinpath(\".env\"))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-j6b-nprzgte!79$fm#$*gt182!qkte+vs4$w8avon*zi-plzk$'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "env = environ.Env(Debug=(bool, False))\nenv.read_env(BASE_DIR.parent.joinpath(\".env\"))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-j6b-nprzgte!79$fm#$*gt182!qkte+vs4$w8avon*zi-plzk$'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = \"user.User\"",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-j6b-nprzgte!79$fm#$*gt182!qkte+vs4$w8avon*zi-plzk$'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = \"user.User\"\n# Application definition\nINSTALLED_APPS = [\n    \"unfold\", \n    \"django.contrib.admin\",\n    \"django.contrib.auth\",",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\nAUTH_USER_MODEL = \"user.User\"\n# Application definition\nINSTALLED_APPS = [\n    \"unfold\", \n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\nAUTH_USER_MODEL = \"user.User\"\n# Application definition\nINSTALLED_APPS = [\n    \"unfold\", \n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "AUTH_USER_MODEL = \"user.User\"\n# Application definition\nINSTALLED_APPS = [\n    \"unfold\", \n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"unfold\", \n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    # config / auth\n    \"rest_framework\",",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'main.urls'",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "ROOT_URLCONF = 'main.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'main.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/6.0/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.postgresql\",\n        \"NAME\": env(\"DB__NAME\"),\n        \"USER\": env(\"DB__USER\"),\n        \"PASSWORD\": env(\"DB__PASS\"),\n        \"HOST\": env(\"DB__HOST\"),",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.postgresql\",\n        \"NAME\": env(\"DB__NAME\"),\n        \"USER\": env(\"DB__USER\"),\n        \"PASSWORD\": env(\"DB__PASS\"),\n        \"HOST\": env(\"DB__HOST\"),\n        \"PORT\": env(\"DB__PORT\"),\n    }\n}",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nREST_FRAMEWORK = {\n        'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nREST_FRAMEWORK = {\n        'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n        'rest_framework.authentication.BasicAuthentication',",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nREST_FRAMEWORK = {\n        'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n        'rest_framework.authentication.BasicAuthentication',\n        'rest_framework.authentication.SessionAuthentication',",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/6.0/howto/static-files/\nSTATIC_URL = 'static/'\nREST_FRAMEWORK = {\n        'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n        'rest_framework.authentication.BasicAuthentication',\n        'rest_framework.authentication.SessionAuthentication',\n    ]",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nREST_FRAMEWORK = {\n        'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n        'rest_framework.authentication.BasicAuthentication',\n        'rest_framework.authentication.SessionAuthentication',\n    ]\n}\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n        'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n        'rest_framework.authentication.BasicAuthentication',\n        'rest_framework.authentication.SessionAuthentication',\n    ]\n}\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(\n        minutes=env(\"ACCESS_TOKEN_LIFETIME_MINUTES\", default=5)  # type: ignore",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(\n        minutes=env(\"ACCESS_TOKEN_LIFETIME_MINUTES\", default=5)  # type: ignore\n    ),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(\n        days=env(\"REFRESH_TOKEN_LIFETIME_DAYS\", default=1)  # type:ignore\n    ),\n    \"ROTATE_REFRESH_TOKENS\": False,\n    \"BLACKLIST_AFTER_ROTATION\": False,\n    \"UPDATE_LAST_LOGIN\": False,",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DJOSER",
+        "kind": 5,
+        "importPath": "src.main.settings",
+        "description": "src.main.settings",
+        "peekOfCode": "DJOSER = {\n    'LOGIN_FIELD': 'email', # Кажемо Djoser, що логінимось по email\n    'SERIALIZERS': {\n        'user_create': 'user.serializers.CustomUserCreateSerializer',\n        'current_user': 'user.serializers.CustomUserSerializer', # Для ендпоінту /me/\n    },\n}",
+        "detail": "src.main.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "src.main.urls",
+        "description": "src.main.urls",
+        "peekOfCode": "urlpatterns = [\n    # admin\n    path(\"admin/\", admin.site.urls),\n    # auth / user\n    path(\"api/v1/auth/\", include('djoser.urls')),\n    path(\"api/v1/auth/token/\", include('djoser.urls.jwt')),\n]",
+        "detail": "src.main.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "src.main.wsgi",
+        "description": "src.main.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "src.main.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "src.user.migrations.0001_initial",
+        "description": "src.user.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "src.user.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "CustomAdminClass",
+        "kind": 6,
+        "importPath": "src.user.admin",
+        "description": "src.user.admin",
+        "peekOfCode": "class CustomAdminClass(ModelAdmin):\n    pass",
+        "detail": "src.user.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UserConfig",
+        "kind": 6,
+        "importPath": "src.user.apps",
+        "description": "src.user.apps",
+        "peekOfCode": "class UserConfig(AppConfig):\n    name = 'user'",
+        "detail": "src.user.apps",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "kind": 6,
+        "importPath": "src.user.models",
+        "description": "src.user.models",
+        "peekOfCode": "class UserManager(BaseUserManager):\n    def create_user(self, email, password, **extra_fields):\n        '''\n        Create and save a user with the given email and password.\n        '''\n        if not email:\n            raise ValueError(_(\"The email must be set\"))\n        email = self.normalize_email(email)\n        user = self.model(email=email, **extra_fields)\n        user.set_password(password)",
+        "detail": "src.user.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "src.user.models",
+        "description": "src.user.models",
+        "peekOfCode": "class User(AbstractUser):\n    username_validator = UnicodeUsernameValidator()\n    email = models.EmailField(_(\"email address\"), blank=False, null=False, unique=True)\n    USERNAME_FIELD = \"email\"\n    REQUIRED_FIELDS = []\n    is_active = models.BooleanField(\n        _(\"active\"),\n        default=True,\n        help_text=_(\n            \"Designates whether this user should be treated as active. \"",
+        "detail": "src.user.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserCreateSerializer",
+        "kind": 6,
+        "importPath": "src.user.serializers",
+        "description": "src.user.serializers",
+        "peekOfCode": "class CustomUserCreateSerializer(UserCreateSerializer):\n    class Meta(UserCreateSerializer.Meta):\n        model = User\n        fields = ('id', 'email', 'password')\nclass CustomUserSerializer(UserSerializer):\n    class Meta(UserSerializer.Meta):\n        fields = ('id', 'email',)",
+        "detail": "src.user.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserSerializer",
+        "kind": 6,
+        "importPath": "src.user.serializers",
+        "description": "src.user.serializers",
+        "peekOfCode": "class CustomUserSerializer(UserSerializer):\n    class Meta(UserSerializer.Meta):\n        fields = ('id', 'email',)",
+        "detail": "src.user.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "src.user.serializers",
+        "description": "src.user.serializers",
+        "peekOfCode": "User = get_user_model()\nclass CustomUserCreateSerializer(UserCreateSerializer):\n    class Meta(UserCreateSerializer.Meta):\n        model = User\n        fields = ('id', 'email', 'password')\nclass CustomUserSerializer(UserSerializer):\n    class Meta(UserSerializer.Meta):\n        fields = ('id', 'email',)",
+        "detail": "src.user.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.manage",
+        "description": "src.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'main.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "src.manage",
+        "documentation": {}
+    }
+]
