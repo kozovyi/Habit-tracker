@@ -16,9 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from rest_framework import routers
 
+from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
+
+from activity.views import ActivityViewSet
+
+router = routers.DefaultRouter()
+router.register("activity", ActivityViewSet, basename="activity")
 
 urlpatterns = [
     # admin
@@ -35,4 +40,7 @@ urlpatterns = [
     # auth / user
     path("api/v1/auth/", include('djoser.urls')),
     path("api/v1/auth/token/", include('djoser.urls.jwt')),
+    
+    # modules
+    path("api/v1/", include(router.urls))
 ]
