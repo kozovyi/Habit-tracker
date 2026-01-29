@@ -4,7 +4,6 @@ from rest_framework.permissions import IsAuthenticated
 
 from drf_spectacular.utils import extend_schema
 
-
 from activity.models import Activity
 from activity.permissions import IsOwner
 from activity.serializers import ActivitySerializer, ActivitySerializerCompact, ActivitySerializerDetail
