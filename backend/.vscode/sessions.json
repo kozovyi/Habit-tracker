@@ -7,22 +7,22 @@
   "sessions": {
     "default": [
       {
-        "name": "server",
+        "name": "app",
         "autoExecuteCommands": true,
-        "icon": "server",
-        "color": "terminal.ansiBrightGreen",
+        "icon": "project",
+        "color": "terminal.ansiBrightMagenta",
         "focus": true,
         "commands": [
           ".venv/Scripts/activate;cd src; python manage.py runserver;"
         ]
       },
       {
-        "name": "code",
+        "name": "dev",
         "autoExecuteCommands": true,
         "icon": "code",
         "color": "terminal.ansiBlue",
         "commands": [
-          ".venv/Scripts/activate;cd backend; cd src; cls;"
+          ".venv/Scripts/activate; cd src; clear;"
         ]
       }
     ]

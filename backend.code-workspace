@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "backend"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"explorerExclude.backup": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/Thumbs.db": true,
+			"**/__pycache__/": true,
+			"backend/.venv": true,
+			"**/.venv": true,
+			"backend/*.*": true,
+			".venv": true
+		}
+	}
+}

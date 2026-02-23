@@ -1,7 +1,7 @@
 services:
 
   db-postgres:
-    image: postgres
+    image: postgres:17
     container_name: hab-db
     restart: always
     shm_size: 1024mb
@@ -14,8 +14,7 @@ services:
     ports:
       - "${DB__PORT}:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data
-
+      - postgres_data:/var/lib/postgresql/data  
 
 volumes:
   postgres_data:

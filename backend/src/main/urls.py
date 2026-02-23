@@ -21,11 +21,12 @@ from rest_framework import routers
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 
 from activity.views import ActivityViewSet
-from activity_log.views import ActivityLogViewSet
+from activity_log.views import ActivityStatisticsViewSet, ActivityLogViewSet
 
 router = routers.DefaultRouter()
 router.register("activity", ActivityViewSet, basename="activity")
 router.register("activity-log", ActivityLogViewSet, basename="activity-log")
+router.register("statistics", ActivityStatisticsViewSet, basename="statistics")
 
 urlpatterns = [
     # admin
@@ -44,5 +45,6 @@ urlpatterns = [
     path("api/v1/auth/token/", include('djoser.urls.jwt')),
     
     # modules
-    path("api/v1/", include(router.urls))
+    path("api/v1/", include(router.urls)),
+    
 ]

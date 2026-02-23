@@ -157,7 +157,7 @@ SPECTACULAR_SETTINGS = {
 }
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(
-        minutes=env("ACCESS_TOKEN_LIFETIME_MINUTES", default=5)  # type: ignore
+        minutes=env("ACCESS_TOKEN_LIFETIME_MINUTES", default=500)  # type: ignore
     ),
     "REFRESH_TOKEN_LIFETIME": timedelta(
         days=env("REFRESH_TOKEN_LIFETIME_DAYS", default=1)  # type:ignore

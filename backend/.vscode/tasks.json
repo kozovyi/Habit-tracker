@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "cpu-temp",
+        "type": "shell",
+        "command": "powershell -ExecutionPolicy Bypass -File D:\\scripts\\server_cpu_temp.ps1",
+        "presentation": {
+          "reveal": "never",
+          "panel": "shared",
+          "clear": true
+        },
+        "problemMatcher": [],
+        "options": {
+          "statusbar": {
+            "label": "$(pulse)",
+            "detail": "CPU temperature",
+            "color": "#22C1D6"
+          }
+        }
+      }
+    ]
+  }
+  
