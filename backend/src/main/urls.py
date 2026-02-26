@@ -20,8 +20,8 @@ from rest_framework import routers
 
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 
-from activity.views import ActivityViewSet
-from activity_log.views import ActivityStatisticsViewSet, ActivityLogViewSet
+from activity.views import ActivityStatisticsViewSet, ActivityViewSet
+from activity_log.views import ActivityLogViewSet
 
 router = routers.DefaultRouter()
 router.register("activity", ActivityViewSet, basename="activity")
