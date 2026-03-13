@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 
 from pathlib import Path
 from datetime import timedelta
-
+import os
 import environ  # type: ignore
 
 
@@ -91,17 +91,34 @@ WSGI_APPLICATION = 'main.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": env("DB__NAME"),
-        "USER": env("DB__USER"),
-        "PASSWORD": env("DB__PASS"),
-        "HOST": env("DB__HOST"),
-        "PORT": env("DB__PORT"),
-    }
-}
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql",
+#         "NAME": env("DB__NAME"),
+#         "USER": env("DB__USER"),
+#         "PASSWORD": env("DB__PASS"),
+#         "HOST": env("DB__HOST"),
+#         "PORT": env("DB__PORT"),
+#     }
+# }
 
+
+if os.environ.get('GITHUB_ACTIONS'):
+    # Use SQLite for tests in GitHub Actions
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3",
+        }
+    }
+else:
+
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3",
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators

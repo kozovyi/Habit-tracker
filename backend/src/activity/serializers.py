@@ -13,7 +13,7 @@ class ActivitySerializer(serializers.ModelSerializer):
 class ActivitySerializerCompact(serializers.ModelSerializer):
     class Meta:
         model = Activity
-        fields = ("name", "descriprion", "is_archived")
+        fields = ("pk", "name", "descriprion", "is_archived")
 
 
 class ActivitySerializerDetail(ActivitySerializer):
